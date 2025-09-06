@@ -42,3 +42,56 @@
     line-height: 100px;
     margin-top: 10px;
 }
+
+.container3{
+    display: block;
+    color: white;
+}
+.menu{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.body{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-around;
+}
+.left-container{
+    height: 600px;
+    background-color: cadetblue;
+    text-align: center;
+    flex: 1;
+    margin-right: 5px;
+}
+.right-container{
+    display: flex;
+    flex: 4.5;
+    min-height: 600px;
+    flex-direction: column;
+    gap: 5px;
+}
+.main{
+    background-color: blueviolet;
+    /* flex: 1; */
+    height: 35%;
+    text-align: center;
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    gap: 5px;
+}
+.options div{
+    background-color: rgb(103, 195, 103);
+    flex: 1;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    height: 15%;
+    text-align: center;
+}
