@@ -1,0 +1,10 @@
+display: flex -> flexdirection mặc định là row, ngang
+flex: >= 1 -> phần tử chiếm toàn bộ không gian có thể chiếm 
+min-width: 90px;
+justify-content: space-between
+flex-basis cho child elements thì mới justify-content: space-... ở parent element được
+
+flex-wrap: xuống dòng khi co nhỏ màn hình
+Đặt line-height thì chữ căn giữa theo chiều dọc 
+
+Tạo div có icon bên trong nằm ở chính giữa -> div display:flex, icon margin: 0
